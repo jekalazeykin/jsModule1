@@ -1,0 +1,16 @@
+const a = 'qwertyuiop[]' ;
+const b = 'asdfghjkl;\'' ;
+const c = 'zxcvbnm,./' ;
+const d = (a.length);
+const e = (b.length);
+const f = (c.length);
+const l = (a.charAt(0));
+const m = (a.charAt(11));
+const n = (b.charAt(0));
+const o = (b.charAt(10));
+const p = (c.charAt(0));
+const r = (c.charAt(9));
+const j = (a.indexOf('['));
+const k = (a.indexOf(']'));
+const answer = `a=${a} b=${b} c=${c} d=${d} e=${e} f=${f} l=${l} m=${m} n=${n} o=${o} p=${p} r=${r} j=${j} k=${k}`;
+console.log(answer);
